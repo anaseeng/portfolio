@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Kabir Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <img src="profile.jpg" alt="Anas Kabir" class="profile-pic">
+            <h1>Anas Kabir</h1>
+            <p>Mai Neman Na Koko</p>
+            <p>Developer, Farmer & BSc in Biochemistry</p>
+        </header>
+
+        <!-- Tools Section -->
+        <nav class="tools">
+            <ul>
+                <li><a href="#" onclick="toggleSection('about')">📄 About Me</a></li>
+                <li><a href="#" onclick="toggleSection('languages')">🌐 Languages</a></li>
+                <li><a href="#" onclick="toggleSection('projects')">💻 Projects</a></li>
+                <li><a href="#" onclick="toggleSection('contact')">📞 Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- About Section -->
+        <section id="about" class="section hidden">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Anas Kabir! I am a passionate developer, farmer, and biochemistry graduate. 
+                I live in Kaduna State, Nigeria, and I am committed to building my skills every day. 
+                I take pride in blending my technical skills, agricultural expertise, and scientific background. 
+                As a Muslim, my values guide my work and interactions.
+            </p>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="section hidden">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hausa</li>
+                <li>Arabic</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section hidden">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong>YourStore Task Manager:</strong>
+                    <p>
+                        YourStore is a productivity app designed to help users effectively organize their daily tasks, track progress, and stay focused on their goals. The app includes advanced features like task prioritization, reminders, and performance insights. 
+                        <br><em>Note:  not yet been released to the public.</em>
+                    </p>
+                </li>
+                <li>
+                    <strong>BuySafe Platform for Tailors:</strong>
+                    <p>
+                        BuySafe is a tailor-centric platform created to empower tailors by enabling them to sell their unique designs online and advertise their skills to a broader audience. The app bridges the gap between tailors and clients, offering a marketplace for high-quality, customized fashion.
+                        <br><em>Note: BuySafe is  in the pre-release stage and is undergoing further development.</em>
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section hidden">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>📱 WhatsApp: <a href="https://wa.me/2349039255792" target="_blank">Chat</a></li>
+                <li>📘 Facebook: <a href="https://www.facebook.com/anas.kabir.3760" target="_blank">Visit</a></li>
+                <li>✉️ Email: <a href="mailto:anaskabir058@gmail.com">Send Mail</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2024 Anas Kabir. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
